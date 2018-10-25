@@ -17,3 +17,9 @@ var friends = [
 
     }
 ];
+
+$("#submitBtn").click(function() {
+    var radioValue = 
+    $("input[name= 'rating1']:checked").val();
+        console.log(radioValue)
+})
