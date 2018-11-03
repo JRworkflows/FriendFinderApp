@@ -1,3 +1,5 @@
+// This is the file that has the friends object that has individual friends with their own properties (scores for now) which we will be using in most of our JS operations for this project so we export it as a module
+
 var friends = [
     {
         name: "JJ",
@@ -38,9 +40,3 @@ var friends = [
 
 module.exports = friends;
 
-// $("#submitBtn").click(function() {
-//     console.log('buttonclicked');
-//     var radioValue = 
-//     $("input[name= 'rating1']:checked").val();
-//         console.log(radioValue)
-// })
